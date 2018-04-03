@@ -1,0 +1,7 @@
+EMR_MODE:  false
+WINDOWS_RUN: true
+SPARK_MASTER:  localhost
+LOCAL_JARS: ..\..\..\..\SparkJars\aws-java-sdk-1.10.34.jar:..\..\..\..\SparkJars\hadoop-aws-2.7.1.jar
+EXECUTOR_CORE_NUM: 4
+EXECUTOR_MEMORY: 30g
+DAYS_BACK_TO_FETCH: 7
